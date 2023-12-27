@@ -1,0 +1,6 @@
+{
+    "format": true,
+    "domains": ["gmail.com", "yahoo.com", "charlotte.edu"],
+    "disposable": false,
+    "dns": true
+}

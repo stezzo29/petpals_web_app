@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | Pet Pals</title>
+    <link rel="stylesheet" href="book.css">
+    <script src="book.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <!-- <img src="photos/photo6.jpg" alt="header image of dog"> -->
+        <h1> Pet Pals</h1>
+        <br>
+        <p> Professional Pet-Sitting Services</p>
+    </header>
+    
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></li>
+                <li><a href="about.html">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a></li>
+                <li><a href="pals.html">&nbsp;&nbsp;Meet the Pals&nbsp;&nbsp;</a></li>
+                <li><a href="services.html">&nbsp;&nbsp;Services&nbsp;&nbsp;</a></li>
+                <li><a href="book.html">&nbsp;&nbsp;Book an Appointment&nbsp;&nbsp;</a></li>
+                <li><a href="contact.html">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</a></li>
+            </ul>
+        </nav>
+        <!-- End of Heading items -->
+    
+        <div class="container">
+            <h3 class="title">Basic Information</h3>
+            <form class="form1" id="form1">
+                <div class="c1">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name"  required>
+                    <br><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <br><br>
+                    <label for="street">Street Address</label>
+                    <input type="text" name="street" id="street" required>
+                    <br><br>
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" size="18" required>
+                    &nbsp;&nbsp;&nbsp;
+                    <label for="state">State</label>
+                    <input type="text" name="state" id="state" size="3" required>
+                    <br><br><br>
+                    <label for="date">Choose A Date </label>
+                    <input type="date" name="date" id="date" size="50"><br><br><br>
+                </div>
+
+                <div class="c2">
+                    <label for="pname">Pet Name</label>
+                    <input type="text" name="pname" id="pname">
+                    <br><br>
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" required>
+                    <br><br>
+                    <label for="apt">Apt/Suite</label>
+                    <input type="text" name="apt" id="apt">
+                    <br><br>
+                    <label for="zip">Zip Code</label>
+                    <input type="text" name="zip" id="zip" required>
+                    <br><br><br>
+                    Potty Trained?&nbsp;&nbsp;
+                    <input type="radio" name="yes" id="yes">
+                    <label for="yes">&nbsp;&nbsp;Yes&nbsp;&nbsp;</label>
+                    <input type="radio" name="no" id="no">
+                    <label for="no">&nbsp;&nbsp;No</label>
+                </div>
+            
+            </form>
+
+            <h3 class="title2" style="text-align: center;">Select Service(s):</h3>
+            <form class="form2" id="form2">
+                <div class="c1">
+                    <input type="checkbox" name="s1" id="s1">
+                    <label for="s1">10 Min Potty Break</label>
+                    <br><br>
+                    <input type="checkbox" name="s2" id="s2">
+                    <label for="s2">15 Min Pet Check-In</label>
+                    <br><br>
+                    <input type="checkbox" name="s3" id="s3">
+                    <label for="s3">30 Min Check-In/Walk</label>
+                    <br><br>
+                    <input type="checkbox" name="s4" id="s4">
+                    <label for="s4">60 Min Check-In/Walk</label>
+                </div>
+
+                <div class="c2">
+                    <input type="checkbox" name="s5" id="s5">
+                    <label for="s5">Pet Sitting</label>
+                    <br><br>
+                    <input type="checkbox" name="s6" id="s6">
+                    <label for="s6">Overnight Boarding at Your Home</label>
+                    <br><br>
+                    <input type="checkbox" name="s7" id="s7">
+                    <label for="s7">Overnight Boarding at Sitter's Home</label>
+                    <br><br>
+                    <input type="checkbox" name="s8" id="s8">
+                    <label for="s8">Pet Transportation</label>
+                </div>
+                
+                
+            </form>
+
+            <!-- Modal Container -->
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="cs">Confirm Submission</h3>
+                    <p class="contect">Are you sure you want to submit this form?</p>
+                    <button id="modalSubmit" class="modalSubmit">Submit</button>
+                    <button id="modalCancel" class="modalCancel">Cancel</button>
+                </div>
+            </div>
+
+            <br><br><br>
+            <input type="submit" class="submit" id="openModal" value="Submit">
+        </div>
+
+        
+    
+    </main>
+
+    <br><br><br><br>
+    <footer class="foot">
+        <em>Copyright &copy; Pet Pals 2023</em>
+    </footer>
+
+</body>
+</html>

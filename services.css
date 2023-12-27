@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(205, 162, 125, 0.084);
+}
+
+header {
+  background-image: url('photos/photo6.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 3rem;
+  font-size: 35px;
+  color: rgb(254, 254, 254);
+  font-family: monospace;
+  
+
+}
+
+header h1{
+    margin-bottom: .1rem;
+    font-weight: lighter;
+}
+
+nav {
+    text-align: center;
+    font-size: 18px;;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(205, 162, 125);
+  
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+}
+
+nav a:hover {
+  background-color: rgba(227, 190, 95, 0.564);
+}
+
+/* End of Header Items */
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.c1 {
+    margin-left: 130px;
+    font-size: 18px;
+}
+
+.c2 {
+    
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: rgb(205, 162, 125)
+}
+
+#p1 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+#p2 {
+  position: relative;
+  left: 130px;
+  top: 150px;
+}
+
+
+
+
+/* footer */
+
+.foot {
+  text-align: center;
+  color: rgb(254, 254, 254);
+  background-color: rgb(205, 162, 125);
+  padding: 20px;
+}

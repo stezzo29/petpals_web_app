@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(205, 162, 125, 0.084);
+}
+
+header {
+  background-image: url('photos/photo6.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 3rem;
+  font-size: 35px;
+  color: rgb(254, 254, 254);
+  font-family: monospace;
+  
+
+}
+
+header h1{
+    margin-bottom: .1rem;
+    font-weight: lighter;
+}
+
+nav {
+    text-align: center;
+    font-size: 18px;;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(205, 162, 125);
+  
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+}
+
+nav a:hover {
+  background-color: rgba(227, 190, 95, 0.564);
+}
+
+/* End of Header Items */
+
+.container {
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(205, 162, 125);
+}
+
+.form1,
+.form2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.c1 {
+    margin-left: 425px;
+    
+}
+
+.c2 {
+    margin-left: 55px;
+}
+
+.title2 {
+    margin-top: 60px;
+    font-size: 30px;
+    color: rgb(205, 162, 125);
+}
+
+.submit {
+    background-color: rgb(111, 162, 230);
+    color: black;
+    margin-top: 40px;
+    margin-left: 660px;
+    padding: 7px;
+    border-radius: 1em;
+    font-weight: bolder;
+    border-color: black; 
+    border-width: .5px;
+}
+
+/* Modal Styles */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, 0.4); 
+  
+  
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content button {
+  margin-right: 25px;
+}
+
+
+.modalSubmit {
+    background-color: rgb(180, 245, 115);
+    color: black;
+    padding: 8px;
+    margin-top: 15px;
+    font-weight: bolder;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.modalCancel {
+    background-color: rgb(228, 92, 92);
+    color: black;
+    padding: 8px;
+    margin-top: 15px;
+    font-weight: bolder;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.cs {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content {
+    
+}
+
+/* footer */
+
+.foot {
+  text-align: center;
+  color: rgb(254, 254, 254);
+  background-color: rgb(205, 162, 125);
+  padding: 20px;
+}
